@@ -20,7 +20,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="P2H-kV-HNX">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserListCell" id="P2H-kV-HNX" customClass="UserListCell" customModule="AccessExercise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P2H-kV-HNX" id="pR8-tL-fgP">
@@ -107,8 +107,17 @@
                                                 <constraint firstAttribute="trailing" secondItem="CAH-2p-OAc" secondAttribute="trailing" constant="15" id="uXb-yP-uh1"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="mImageView_Avatar" destination="N10-AA-d4h" id="cGI-xO-BXY"/>
+                                            <outlet property="mLabel_Login" destination="bOj-9r-1S3" id="AfF-4C-5fg"/>
+                                            <outlet property="mView_SiteAdmin" destination="vEz-py-aQZ" id="j7n-kq-nam"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="B1j-tH-ud4" id="Lgp-qV-PDN"/>
+                                    <outlet property="delegate" destination="B1j-tH-ud4" id="GVH-f8-mI0"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -120,6 +129,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="C3h-Ov-55s"/>
                     </view>
+                    <connections>
+                        <outlet property="mTableView_Main" destination="d90-nL-f5E" id="otg-eg-Fzf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jf2-vC-Ufk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

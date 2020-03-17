@@ -19,6 +19,8 @@
 		1833092924207C7A00CD9CAF /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833092824207C7A00CD9CAF /* UserDataModel.swift */; };
 		1833092B24207E2600CD9CAF /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833092A24207E2600CD9CAF /* UserListViewModel.swift */; };
 		1833092E24207E8F00CD9CAF /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833092D24207E8F00CD9CAF /* ApiService.swift */; };
+		1833093024209C3A00CD9CAF /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833092F24209C3A00CD9CAF /* UserListCell.swift */; };
+		1833093224209D7600CD9CAF /* UserListVC+TableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833093124209D7600CD9CAF /* UserListVC+TableViewExt.swift */; };
 		6B40B52D474534B713533DF5 /* Pods_AccessExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28360449B9B29EDC6EFB7087 /* Pods_AccessExercise.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		1833092824207C7A00CD9CAF /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
 		1833092A24207E2600CD9CAF /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 		1833092D24207E8F00CD9CAF /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		1833092F24209C3A00CD9CAF /* UserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
+		1833093124209D7600CD9CAF /* UserListVC+TableViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserListVC+TableViewExt.swift"; sourceTree = "<group>"; };
 		28360449B9B29EDC6EFB7087 /* Pods_AccessExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccessExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACB64F2FC34425886A2BE36 /* Pods-AccessExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessExercise.release.xcconfig"; path = "Target Support Files/Pods-AccessExercise/Pods-AccessExercise.release.xcconfig"; sourceTree = "<group>"; };
 		EF59CF2F11C24CD120978F20 /* Pods-AccessExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessExercise.debug.xcconfig"; path = "Target Support Files/Pods-AccessExercise/Pods-AccessExercise.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				1833091624206E3300CD9CAF /* UserList.storyboard */,
+				1833092F24209C3A00CD9CAF /* UserListCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				1833091824206FA900CD9CAF /* UserListVC.swift */,
+				1833093124209D7600CD9CAF /* UserListVC+TableViewExt.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -321,6 +327,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1833093024209C3A00CD9CAF /* UserListCell.swift in Sources */,
+				1833093224209D7600CD9CAF /* UserListVC+TableViewExt.swift in Sources */,
 				1833092924207C7A00CD9CAF /* UserDataModel.swift in Sources */,
 				183308FE242064B900CD9CAF /* AppDelegate.swift in Sources */,
 				1833092B24207E2600CD9CAF /* UserListViewModel.swift in Sources */,

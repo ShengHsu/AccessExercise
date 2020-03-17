@@ -9,6 +9,9 @@
 import UIKit
 
 class UserListVC: UIViewController {
+    //UI
+    @IBOutlet weak var mTableView_Main: UITableView!
+    
     //ViewModel
     internal var viewModel: UserListViewModel!
 
@@ -29,7 +32,7 @@ class UserListVC: UIViewController {
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == "isReadyFetchListData" {
-            print("callback success")
+            mTableView_Main.reloadData()
         }
     }
     
