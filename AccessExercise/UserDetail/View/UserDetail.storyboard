@@ -56,7 +56,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="Mask_RB" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2z-Q2-ctM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2z-Q2-ctM">
                                 <rect key="frame" x="20" y="299" width="335" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -70,7 +70,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2af-S5-og3">
-                                <rect key="frame" x="25" y="366.66666666666669" width="40" height="36.666666666666686"/>
+                                <rect key="frame" x="25" y="355" width="40" height="36.666666666666686"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="HgU-f3-ujo"/>
@@ -78,16 +78,16 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="I9H-A4-7D1">
-                                <rect key="frame" x="85" y="364" width="265" height="41"/>
+                                <rect key="frame" x="85" y="364" width="265" height="18"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebM-gl-6KW">
-                                        <rect key="frame" x="0.0" y="0.0" width="40.333333333333336" height="18"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebM-gl-6KW">
+                                        <rect key="frame" x="0.0" y="0.0" width="4" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hJ8-ia-jYD" customClass="CornerView" customModule="AccessExercise" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="23" width="67" height="18"/>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hJ8-ia-jYD" customClass="CornerView" customModule="AccessExercise" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="67" height="18"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STAFF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hwm-Rt-WQm">
                                                 <rect key="frame" x="5" y="5" width="57" height="8"/>
@@ -120,21 +120,21 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bvA-cI-vWL">
-                                <rect key="frame" x="25" y="431" width="40" height="38.666666666666686"/>
+                                <rect key="frame" x="25" y="408" width="40" height="38.666666666666686"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="03f-5z-elq"/>
                                     <constraint firstAttribute="width" constant="40" id="elL-79-145"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unF-ZD-UmI">
-                                <rect key="frame" x="85" y="441" width="265" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unF-ZD-UmI">
+                                <rect key="frame" x="85" y="418" width="265" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="link" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9bC-YH-Fhw">
-                                <rect key="frame" x="25" y="490" width="40" height="40.333333333333371"/>
+                                <rect key="frame" x="25" y="467" width="40" height="40.333333333333314"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="6AM-L1-eYr"/>
@@ -142,8 +142,11 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vjm-0l-L4Q">
-                                <rect key="frame" x="85" y="495" width="265" height="30"/>
-                                <state key="normal" title="http://www.google.com.tw"/>
+                                <rect key="frame" x="85" y="472" width="265" height="30"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="click_Blog:" destination="BiU-Gt-m8p" eventType="touchUpInside" id="mhP-eW-wr5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -176,6 +179,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nsi-fC-qy9"/>
                     </view>
+                    <connections>
+                        <outlet property="mButton_Blog" destination="Vjm-0l-L4Q" id="ZXH-nM-lBT"/>
+                        <outlet property="mImageView_Avatar" destination="ZDN-3p-30W" id="NuQ-vS-WBB"/>
+                        <outlet property="mLabel_Location" destination="unF-ZD-UmI" id="9Kj-5F-hcZ"/>
+                        <outlet property="mLabel_Login" destination="ebM-gl-6KW" id="hyt-7v-X8d"/>
+                        <outlet property="mLabel_Name" destination="M2z-Q2-ctM" id="Xk0-hW-CuT"/>
+                        <outlet property="mView_SiteAdmin" destination="hJ8-ia-jYD" id="s31-mb-S23"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9M1-Hn-TyA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="GP5-Gn-jsh" userLabel="Exit" sceneMemberID="exit"/>

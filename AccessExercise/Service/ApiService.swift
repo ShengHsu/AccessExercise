@@ -17,4 +17,8 @@ class ApiService: NSObject {
         AF.request(todosEndpoint, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON(completionHandler: callback)
     }
     
+    func GET_UserDetailData(login: String, callback: @escaping ((AFDataResponse<Any>) -> Void)) {
+        let todosEndpoint: String = "https://api.github.com/users/" + login
+        AF.request(todosEndpoint, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON(completionHandler: callback)
+    }
 }

@@ -21,6 +21,9 @@
 		1833092E24207E8F00CD9CAF /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833092D24207E8F00CD9CAF /* ApiService.swift */; };
 		1833093024209C3A00CD9CAF /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833092F24209C3A00CD9CAF /* UserListCell.swift */; };
 		1833093224209D7600CD9CAF /* UserListVC+TableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833093124209D7600CD9CAF /* UserListVC+TableViewExt.swift */; };
+		183309342420A43D00CD9CAF /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183309332420A43D00CD9CAF /* UserDetailModel.swift */; };
+		183309362420A50B00CD9CAF /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183309352420A50B00CD9CAF /* UserDetailViewModel.swift */; };
+		183309382420AA5500CD9CAF /* UserDetailVC+ClickExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183309372420AA5500CD9CAF /* UserDetailVC+ClickExt.swift */; };
 		6B40B52D474534B713533DF5 /* Pods_AccessExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28360449B9B29EDC6EFB7087 /* Pods_AccessExercise.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,9 @@
 		1833092D24207E8F00CD9CAF /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		1833092F24209C3A00CD9CAF /* UserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
 		1833093124209D7600CD9CAF /* UserListVC+TableViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserListVC+TableViewExt.swift"; sourceTree = "<group>"; };
+		183309332420A43D00CD9CAF /* UserDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModel.swift; sourceTree = "<group>"; };
+		183309352420A50B00CD9CAF /* UserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
+		183309372420AA5500CD9CAF /* UserDetailVC+ClickExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDetailVC+ClickExt.swift"; sourceTree = "<group>"; };
 		28360449B9B29EDC6EFB7087 /* Pods_AccessExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccessExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACB64F2FC34425886A2BE36 /* Pods-AccessExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessExercise.release.xcconfig"; path = "Target Support Files/Pods-AccessExercise/Pods-AccessExercise.release.xcconfig"; sourceTree = "<group>"; };
 		EF59CF2F11C24CD120978F20 /* Pods-AccessExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessExercise.debug.xcconfig"; path = "Target Support Files/Pods-AccessExercise/Pods-AccessExercise.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +182,7 @@
 		18330921242073ED00CD9CAF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				183309352420A50B00CD9CAF /* UserDetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -183,6 +190,7 @@
 		18330922242073F600CD9CAF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				183309332420A43D00CD9CAF /* UserDetailModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				183309262420744F00CD9CAF /* UserDetailVC.swift */,
+				183309372420AA5500CD9CAF /* UserDetailVC+ClickExt.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -327,11 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183309342420A43D00CD9CAF /* UserDetailModel.swift in Sources */,
+				183309382420AA5500CD9CAF /* UserDetailVC+ClickExt.swift in Sources */,
 				1833093024209C3A00CD9CAF /* UserListCell.swift in Sources */,
 				1833093224209D7600CD9CAF /* UserListVC+TableViewExt.swift in Sources */,
 				1833092924207C7A00CD9CAF /* UserDataModel.swift in Sources */,
 				183308FE242064B900CD9CAF /* AppDelegate.swift in Sources */,
 				1833092B24207E2600CD9CAF /* UserListViewModel.swift in Sources */,
+				183309362420A50B00CD9CAF /* UserDetailViewModel.swift in Sources */,
 				18330900242064B900CD9CAF /* SceneDelegate.swift in Sources */,
 				1833091924206FA900CD9CAF /* UserListVC.swift in Sources */,
 				1833091E2420704F00CD9CAF /* CornerView.swift in Sources */,
