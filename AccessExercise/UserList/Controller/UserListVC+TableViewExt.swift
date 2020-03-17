@@ -12,7 +12,11 @@ private let reuseIdentifer = "UserListCell"
 
 extension UserListVC : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.mArray_UserDataList.count
+        if viewModel.mArray_UserDataList.count > 20 {
+            return 20
+        } else {
+            return viewModel.mArray_UserDataList.count
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
