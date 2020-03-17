@@ -7,5 +7,6 @@
 4. Implement MVVM design pattern, Setup folder structure.
 5. Implement API Service, fetch UserData.
 6. Render to view and test flow.
+7. Open AccessExercise.xcworkspace
 
 **Thank you for reviewing.**
