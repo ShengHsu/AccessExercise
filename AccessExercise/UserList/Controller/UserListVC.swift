@@ -14,12 +14,23 @@ class UserListVC: UIViewController {
     
     //ViewModel
     internal var viewModel: UserListViewModel!
+    
+    //Data
+    var selectIndex: Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel = UserListViewModel(apiService: ApiService())
         configDataBinding()
         viewModel.fetchUserData()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toUserDetail" {
+            if let destination = segue.destination as? UserDetailVC {
+                destination.LoginID = viewModel.mArray_UserDataList[selectIndex].getLogin
+            }
+        }
     }
     
     deinit {

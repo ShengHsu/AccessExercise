@@ -131,11 +131,22 @@
                     </view>
                     <connections>
                         <outlet property="mTableView_Main" destination="d90-nL-f5E" id="otg-eg-Fzf"/>
+                        <segue destination="GYy-sG-7e8" kind="show" identifier="toUserDetail" id="nMN-0A-n0m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jf2-vC-Ufk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="124.6376811594203" y="99.776785714285708"/>
+        </scene>
+        <!--UserDetail-->
+        <scene sceneID="UJV-1g-KjH">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="UserDetail" storyboardName="UserDetail" referencedIdentifier="UserDetail" id="GYy-sG-7e8" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="2s0-cH-Fyw"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NtR-Bu-VjB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="706" y="-16"/>
         </scene>
     </scenes>
 </document>

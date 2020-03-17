@@ -23,5 +23,8 @@ extension UserListVC : UITableViewDelegate, UITableViewDataSource {
         return UITableViewCell()
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectIndex = indexPath.row
+        performSegue(withIdentifier: "toUserDetail", sender: nil)
+    }
 }
